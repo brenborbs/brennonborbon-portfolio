@@ -1,0 +1,24 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Tell Reach Dialog that we are handling styling ourselves */
+:root {
+  --reach-dialog: 1;
+}
+
+/* Add a background colour so that when you overscroll (iOS and macOS) you can see the colour underneath */
+body {
+  @apply bg-green-500;
+}
+
+@responsive {
+  /* Used to prevent content being hidden behind bottom menu controls on mobile Safari */
+  .fill-available {
+    min-height: -webkit-fill-available;
+  }
+
+  .text-shadow {
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+  }
+}
