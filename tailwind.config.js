@@ -20,11 +20,14 @@ module.exports = {
       '16/9': [16, 9], // or 16 / 9
       '4/3': [4, 3], // or 4 / 3
       '21/9': [21, 9], // or 21 / 9
+      '3/4': [3, 4],
     },
     extend: {
       fontFamily: {
         nunito: ['Nunito', ...defaultTheme.fontFamily.sans],
         playfair: ['Playfair Display', ...defaultTheme.fontFamily.sans],
+        roboto: ['Roboto', ...defaultTheme.fontFamily.sans],
+        architects: ['Architects Daughter', ...defaultTheme.fontFamily.sans],
       },
       colors: {
         brand: {

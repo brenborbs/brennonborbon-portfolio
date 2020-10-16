@@ -12,6 +12,15 @@ body {
   @apply bg-green-500;
 }
 
+.heading-1 {
+  @apply text-xl italic uppercase;
+}
+
+/* Style selected text */
+::selection {
+  @apply text-white bg-brand-blue;
+}
+
 @responsive {
   /* Used to prevent content being hidden behind bottom menu controls on mobile Safari */
   .fill-available {

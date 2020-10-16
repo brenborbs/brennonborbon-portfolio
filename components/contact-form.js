@@ -37,7 +37,7 @@ function ContactForm() {
           register={register}
           errors={errors}
         />
-        <div className="text-left">
+        <div className="text-left font-architects">
           <button
             type="submit"
             disabled={isSubmitting}

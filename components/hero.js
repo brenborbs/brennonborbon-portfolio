@@ -12,12 +12,12 @@ function Hero({ img, title, cta, action }) {
         <div className="text-center text-white uppercase">
           <h2 className="text-3xl text-shadow font-nunito">
             {title} <br />
-            <span className="text-lg font-bold uppercase sm:text-3xl md:text-5xl font-playfair">
+            <span className="text-lg font-bold uppercase sm:text-3xl md:text-5xl font-roboto">
               {cta}
             </span>
           </h2>
           <Link href="/">
-            <a className="mt-2 inline-flex items-center justify-center px-8 py-2 tracking-wider text-white transition duration-150 ease-in-out border border-green-500 bg-green-500 hover:text-green-500 hover:bg-white focus:text-green-500 focus:bg-white;">
+            <a className="font-architects mt-2 inline-flex items-center justify-center px-8 py-2 tracking-wider text-white transition duration-150 ease-in-out border border-green-500 bg-green-500 hover:text-green-500 hover:bg-white focus:text-green-500 focus:bg-white;">
               {action}
             </a>
           </Link>

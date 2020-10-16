@@ -16,7 +16,7 @@ function Input({
     <div>
       <label htmlFor={name}>
         <span className="sr-only">{label}</span>
-        <div className="relative mt-1 shadow-sm">
+        <div className="relative mt-1 shadow-sm font-architects">
           <input
             id={name}
             name={name}

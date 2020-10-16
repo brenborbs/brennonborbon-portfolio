@@ -20,6 +20,14 @@ class MyDocument extends Document {
           href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
           rel="stylesheet"
         ></link>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+          rel="stylesheet"
+        ></link>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap"
+          rel="stylesheet"
+        ></link>
         <body>
           <Main />
           <NextScript />

@@ -11,7 +11,7 @@ function Footer() {
           {footerNavigation.map((node) => (
             <div className="px-5 py-2" key={node.id}>
               <Link href={node.slug} key={node.id}>
-                <a className="text-base leading-6 text-green-500 transition duration-150 ease-in-out hover:text-green-900">
+                <a className="text-base font-medium leading-6 text-green-500 transition duration-150 ease-in-out font-architects hover:text-green-900">
                   {node.label}
                 </a>
               </Link>
@@ -23,7 +23,7 @@ function Footer() {
             <a
               key={node.id}
               href={node.url}
-              className="text-green-400 transition duration-150 ease-in-out hover:text-green-500 focus:text-green-500 focus:shadow-none"
+              className="text-green-400 transition duration-150 ease-in-out  hover:text-green-500 focus:text-green-500 focus:shadow-none"
             >
               <span className="sr-only">{node.label}</span>
               <node.icon className="w-6 h-6" />
@@ -31,7 +31,7 @@ function Footer() {
           ))}
         </div>
         <div className="mt-8">
-          <p className="text-base leading-6 text-center text-green-400">
+          <p className="text-base leading-6 text-center text-green-400 font-architects">
             &copy; {new Date().getFullYear()} {APP_NAME}. All rights reserved.
           </p>
         </div>

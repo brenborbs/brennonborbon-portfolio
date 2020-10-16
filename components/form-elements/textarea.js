@@ -18,7 +18,7 @@ function TextArea({
           {label}
           {required && ' *'}
         </span>
-        <div className="relative mt-1 shadow-sm">
+        <div className="relative mt-1 shadow-sm font-architects">
           <textarea
             id={name}
             name={name}

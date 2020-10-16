@@ -1,4 +1,4 @@
-import { Layout, SEO, Hero } from '../components';
+import { Layout, SEO, Hero, About, Review } from '../components';
 
 const img = '/landing.jpg';
 
@@ -12,6 +12,8 @@ export default function Home() {
         cta="NextJS Tailwindcss"
         action="Check it Now!"
       />
+      <About />
+      <Review />
     </Layout>
   );
 }
