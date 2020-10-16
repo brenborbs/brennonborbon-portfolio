@@ -9,6 +9,8 @@ module.exports = {
   future: {
     removeDeprecatedGapUtilities: true,
     purgeLayersByDefault: true,
+    defaultLineHeights: true,
+    standardFontWeights: true,
   },
   purge: ['./pages/*.js', './components/*.js'],
   experimental: 'all',
@@ -21,8 +23,8 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        sans: ['Montserrat', ...defaultTheme.fontFamily.sans],
-        serif: ['Showcase Slab', ...defaultTheme.fontFamily.sans],
+        nunito: ['Nunito', ...defaultTheme.fontFamily.sans],
+        playfair: ['Playfair Display', ...defaultTheme.fontFamily.sans],
       },
       colors: {
         brand: {

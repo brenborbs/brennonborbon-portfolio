@@ -10,9 +10,9 @@ function Hero({ img, title, cta, action }) {
       </div>
       <div className="absolute inset-0 flex items-center justify-center px-4 sm:px-6 lg:px-8">
         <div className="text-center text-white uppercase">
-          <h2 className="text-3xl text-shadow">
+          <h2 className="text-3xl text-shadow font-nunito">
             {title} <br />
-            <span className="text-lg font-bold uppercase sm:text-3xl md:text-5xl">
+            <span className="text-lg font-bold uppercase sm:text-3xl md:text-5xl font-playfair">
               {cta}
             </span>
           </h2>
