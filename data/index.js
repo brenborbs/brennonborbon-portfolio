@@ -1,2 +1,3 @@
-export * from './site-navigation';
+export * from './faqs';
 export * from './reviews';
+export * from './site-navigation';

@@ -22,11 +22,18 @@ export const mainNavigation = [
     slug: '/contact',
     icon: HomeIcon,
   },
+  {
+    id: nanoid(),
+    label: 'Faqs',
+    slug: '/faqs',
+    icon: HomeIcon,
+  },
 ];
 
 export const footerNavigation = [
   { id: nanoid(), label: 'Home', slug: '/' },
   { id: nanoid(), label: 'Contact', slug: '/contact' },
+  { id: nanoid(), label: 'Faqs', slug: '/faqs' },
 ];
 
 export const socialLinks = [
