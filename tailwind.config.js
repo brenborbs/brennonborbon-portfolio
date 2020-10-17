@@ -36,6 +36,11 @@ module.exports = {
           black: '#060000',
         },
       },
+      spacing: {
+        72: '18rem',
+        84: '21rem',
+        96: '24rem',
+      },
     },
   },
   // Default values here: https://tailwindcss.com/docs/pseudo-class-variants#default-variants-reference

@@ -1,19 +1,20 @@
-import { Layout, SEO, Hero, About, Review } from '../components';
-
-const img = '/landing.jpg';
+import {
+  Layout,
+  SEO,
+  InstagramWidget,
+  About,
+  Review,
+  Carousel,
+} from '../components';
 
 export default function Home() {
   return (
     <Layout>
       <SEO title="Home" />
-      <Hero
-        img={img}
-        title="Landing Page"
-        cta="NextJS Tailwindcss"
-        action="Check it Now!"
-      />
+      <Carousel />
       <About />
       <Review />
+      <InstagramWidget />
     </Layout>
   );
 }
