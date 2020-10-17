@@ -1,0 +1,10 @@
+[build]
+  command = "yarn run build"
+  publish = "out"
+  functions = "functions/"
+
+[dev]
+  autoLaunch = true # a Boolean value that determines if Netlify Dev launches the local server address in your browser
+
+[[plugins]]
+package = "netlify-plugin-cache-nextjs"

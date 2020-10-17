@@ -2,6 +2,7 @@ export * from './about';
 export * from './carousel';
 export * from './contact-form';
 export * from './hero';
+export * from './instagram-widget';
 export * from './layout';
 export * from './question';
 export * from './review';

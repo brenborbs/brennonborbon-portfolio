@@ -37,7 +37,7 @@ function Review() {
   return (
     <div className="w-full mx-auto max-w-7xl">
       <div className="relative flex flex-col items-center justify-center pt-14">
-        <h2 className="my-4 text-2xl font-bold uppercase font-architects">
+        <h2 className="px-1 py-1 my-6 text-4xl font-bold text-center bg-green-300 rounded-sm font-architects">
           Reviews
         </h2>
         <article className="max-w-md px-6 py-8 mx-auto overflow-hidden text-center rounded-lg shadow-lg">

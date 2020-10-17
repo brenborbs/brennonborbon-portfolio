@@ -15,7 +15,9 @@ function About() {
             </div>
           </div>
           <div className="md:py-12">
-            <h2 className="heading-1 text-brand-blue">Our Story</h2>
+            <h2 className="px-1 py-1 text-4xl font-bold text-center bg-green-300 rounded-sm  font-architects">
+              Our Story
+            </h2>
             <div className="mt-6 prose">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem,

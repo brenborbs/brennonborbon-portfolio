@@ -1,4 +1,4 @@
-import { Layout, SEO, Hero, ContactForm } from '../components';
+import { Layout, SEO, Hero, ContactForm, InstagramWidget } from '../components';
 
 const img = '/contact.jpg';
 
@@ -17,6 +17,7 @@ export default function Contact() {
           <ContactForm />
         </div>
       </div>
+      <InstagramWidget />
     </Layout>
   );
 }
