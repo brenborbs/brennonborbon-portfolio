@@ -1,9 +1,10 @@
-import { Layout, SEO, Question } from '../components';
+import { Layout, SEO, Question, Carousel } from '../components';
 
 export default function Faqs() {
   return (
     <Layout>
       <SEO title="faqs" />
+      <Carousel />
       <div className="px-4 bg-white sm:px-6 lg:px-8">
         <div className="py-8 mx-auto">
           <div className="relative flex flex-col items-center justify-center mx-auto mt-2">
