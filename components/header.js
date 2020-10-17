@@ -68,7 +68,7 @@ function Header() {
           </div>
         </div>
       </div>
-      <MobileMenu isOpen={isOpen} setIsOpen={setIsOpen} />
+      {isOpen && <MobileMenu isOpen={isOpen} setIsOpen={setIsOpen} />}
     </nav>
   );
 }

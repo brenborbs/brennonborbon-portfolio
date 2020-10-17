@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import PropTypes from 'prop-types';
 import { APP_NAME, APP_DESCRIPTION } from '../config';
 
 function SEO({ title }) {
@@ -22,5 +23,9 @@ function SEO({ title }) {
     </Head>
   );
 }
+
+SEO.propTypes = {
+  title: PropTypes.string.isRequired,
+};
 
 export { SEO };

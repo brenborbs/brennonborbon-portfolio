@@ -77,7 +77,7 @@ function MobileMenu({ isOpen, setIsOpen }) {
               <div className="flex-1 h-0 mt-5 overflow-y-auto">
                 <nav className="px-2">
                   {mainNavigation.map((node) => (
-                    <Link href="/" key={node.id}>
+                    <Link href={node.slug} key={node.id}>
                       <a
                         key={node.id}
                         className="flex items-center px-2 py-2 mt-1 text-base font-medium leading-6 text-white transition duration-150 ease-in-out rounded-md group hover:text-white hover:bg-green-700 focus:outline-none focus:text-white focus:bg-green-700"

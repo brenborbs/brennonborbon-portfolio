@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import PropTypes from 'prop-types';
 import { AnimatePresence, motion } from 'framer-motion';
 import {
   Accordion as ReachAccordion,
@@ -47,5 +48,11 @@ function Question({ children, heading, headingLevel = 'h3' }) {
     </ReachAccordion>
   );
 }
+
+Question.propTypes = {
+  children: PropTypes.node.isRequired,
+  heading: PropTypes.string.isRequired,
+  headingLevel: PropTypes.string,
+};
 
 export { Question };

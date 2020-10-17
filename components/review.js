@@ -56,7 +56,7 @@ function Review() {
           </h4>
           <p className="mb-2 text-lg uppercase font-architects">{job}</p>
           <p className="mb-2 prose">{text}</p>
-          <div className="">
+          <div className="flex justify-between -mb-10">
             <button
               className="px-1 py-1 mr-1 text-2xl text-white bg-transparent border border-transparent cursor-pointer bg-brand-blue hover:bg-blue-500"
               onClick={prevPerson}
@@ -71,10 +71,10 @@ function Review() {
             </button>
           </div>
           <button
-            className="px-8 py-2 mt-4 tracking-wider text-white uppercase transition ease-in-out bg-green-500 border border-green-500 transition-duration-150 hover:text-green-500 hover:bg-white focus:text-green-500 focus:bg-white"
+            className="px-4 py-2 mt-1 tracking-wider text-white uppercase transition ease-in-out bg-green-500 border border-green-500 transition-duration-150 hover:text-green-500 hover:bg-white focus:text-green-500 focus:bg-white"
             onClick={randomPerson}
           >
-            surprise me
+            Random Person
           </button>
         </article>
       </div>

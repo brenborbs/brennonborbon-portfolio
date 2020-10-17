@@ -2,6 +2,7 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 const tailwindUI = require('@tailwindcss/ui');
 const aspectRatio = require('tailwindcss-aspect-ratio');
 const typography = require('@tailwindcss/typography');
+const filters = require('tailwindcss-filters');
 
 // See https://tailwindcss.com/docs/configuration for details
 
@@ -21,6 +22,9 @@ module.exports = {
       '4/3': [4, 3], // or 4 / 3
       '21/9': [21, 9], // or 21 / 9
       '3/4': [3, 4],
+    },
+    backdropFilter: {
+      blur: `blur(${defaultTheme.spacing[2]})`,
     },
     extend: {
       fontFamily: {
@@ -56,5 +60,7 @@ module.exports = {
     tailwindUI,
     // See https://github.com/tailwindlabs/tailwindcss-typography for details
     typography,
+    // See https://github.com/benface/tailwindcss-filters for details
+    filters,
   ],
 };

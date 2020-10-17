@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import PropTypes from 'prop-types';
 
 function Hero({ img, title, cta, action }) {
   return (
@@ -26,5 +27,12 @@ function Hero({ img, title, cta, action }) {
     </article>
   );
 }
+
+Hero.propTypes = {
+  img: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  cta: PropTypes.string.isRequired,
+  action: PropTypes.string.isRequired,
+};
 
 export { Hero };

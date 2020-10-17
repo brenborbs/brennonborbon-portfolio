@@ -16,24 +16,26 @@ export const mainNavigation = [
     slug: '/',
     icon: HomeIcon,
   },
-  {
-    id: nanoid(),
-    label: 'Contact',
-    slug: '/contact',
-    icon: HomeIcon,
-  },
+
   {
     id: nanoid(),
     label: 'Faqs',
     slug: '/faqs',
     icon: HomeIcon,
   },
+  {
+    id: nanoid(),
+    label: 'Contact',
+    slug: '/contact',
+    icon: HomeIcon,
+  },
 ];
 
 export const footerNavigation = [
   { id: nanoid(), label: 'Home', slug: '/' },
-  { id: nanoid(), label: 'Contact', slug: '/contact' },
+
   { id: nanoid(), label: 'Faqs', slug: '/faqs' },
+  { id: nanoid(), label: 'Contact', slug: '/contact' },
 ];
 
 export const socialLinks = [

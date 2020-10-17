@@ -1,4 +1,4 @@
-import { FiChevronRight, FiChevronLeft } from 'react-icons/fi';
+import PropTypes from 'prop-types';
 import { useKeenSlider } from 'keen-slider/react';
 import { carousel } from '../data';
 import Link from 'next/link';
@@ -72,24 +72,57 @@ function ArrowLeft({ onClick }) {
     <button
       type="button"
       onClick={onClick}
-      className="p-2 transition duration-150 ease-in-out bg-white bg-opacity-25 rounded-full pointer-events-auto hover:bg-green-500 focus:bg-green-300"
+      className="p-2 transition duration-150 ease-in-out bg-white bg-opacity-25 rounded-full pointer-events-auto backdrop-blur hover:bg-green-500 focus:bg-green-300"
     >
-      <FiChevronLeft />
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        className="w-8 h-8 text-white"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          d="M15 19l-7-7 7-7"
+        />
+      </svg>
     </button>
   );
 }
+
+ArrowLeft.propTypes = {
+  onClick: PropTypes.func.isRequired,
+};
 
 function ArrowRight({ onClick }) {
   return (
     <button
       type="button"
       onClick={onClick}
-      className="p-2 transition duration-150 ease-in-out bg-white bg-opacity-25 rounded-full pointer-events-auto hover:bg-green-500 focus:bg-green-300"
+      className="p-2 transition duration-150 ease-in-out bg-white bg-opacity-25 rounded-full pointer-events-auto backdrop-blur hover:bg-green-500 focus:bg-green-300"
     >
-      <FiChevronRight />
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        className="w-8 h-8 text-white"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M9 5l7 7-7 7"
+        />
+      </svg>
     </button>
   );
 }
+ArrowRight.propTypes = {
+  onClick: PropTypes.func.isRequired,
+};
 
 function ArrowDown() {
   return (
