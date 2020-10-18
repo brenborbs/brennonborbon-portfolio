@@ -2,13 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 
-*,
-:after,
-:before {
-  box-sizing: border-box;
-  border: 0 solid #d2d6dc;
-}
-
 /* Tell Reach Dialog that we are handling styling ourselves */
 :root {
   --reach-dialog: 1;
