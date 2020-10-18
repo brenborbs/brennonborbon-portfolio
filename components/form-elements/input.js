@@ -37,9 +37,7 @@ function Input({
                 ),
               },
             })}
-            className={`block w-full px-4 py-3 tracking-wider text-black placeholder-green-300 uppercase transition duration-150 ease-in-out border-green-300 rounded-none form-input ${
-              errors[name]?.message ? 'border-red-300' : 'border-green-300'
-            } `}
+            className="block w-full px-4 py-3 tracking-wider text-black placeholder-green-300 uppercase transition duration-150 ease-in-out border-green-300 rounded-none form-input"
           />
         </div>
       </label>
