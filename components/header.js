@@ -17,10 +17,10 @@ function Header() {
               </a>
             </Link>
           </div>
-          <div className="hidden space-x-8 sm:ml-6 sm:flex font-architects">
+          <div className="hidden space-x-8 sm:ml-6 sm:flex">
             {mainNavigation.map((node) => (
               <Link key={node.id} href={node.slug}>
-                <a className="inline-flex items-center px-1 pt-1 font-medium leading-5 text-green-500 transition duration-150 ease-in-out border-b-2 border-transparent text-md hover:text-green-700 hover:border-green-300 focus:shadow-none focus:text-green-700 focus:border-green-300">
+                <a className="inline-flex items-center px-1 pt-1 leading-5 text-green-500 transition duration-150 ease-in-out border-b-2 border-transparent text-md hover:text-green-700 hover:border-green-300 focus:shadow-none focus:text-green-700 focus:border-green-300">
                   {node.label}
                 </a>
               </Link>

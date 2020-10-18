@@ -16,6 +16,12 @@ export const mainNavigation = [
     slug: '/',
     icon: HomeIcon,
   },
+  {
+    id: nanoid(),
+    label: 'Projects',
+    slug: '/projects',
+    icon: HomeIcon,
+  },
 
   {
     id: nanoid(),
@@ -33,7 +39,7 @@ export const mainNavigation = [
 
 export const footerNavigation = [
   { id: nanoid(), label: 'Home', slug: '/' },
-
+  { id: nanoid(), label: 'Projects', slug: '/projects' },
   { id: nanoid(), label: 'Faqs', slug: '/faqs' },
   { id: nanoid(), label: 'Contact', slug: '/contact' },
 ];

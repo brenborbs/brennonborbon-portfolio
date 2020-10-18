@@ -10,6 +10,7 @@
   "dependencies": {
     "@reach/accordion": "^0.11.2",
     "@reach/dialog": "^0.11.2",
+    "@reach/tabs": "^0.11.2",
     "@tailwindcss/typography": "^0.2.0",
     "@tailwindcss/ui": "^0.6.2",
     "autoprefixer": "9.8.6",
