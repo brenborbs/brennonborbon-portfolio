@@ -29,7 +29,9 @@ function TextArea({
             ref={register({
               required: <Error message={`${label} is a required field`} />,
             })}
-            className="block w-full px-4 py-3 tracking-wider placeholder-green-300 uppercase transition duration-150 ease-in-out border-green-300 rounded-none form-textarea to-green-500"
+            className={`block w-full px-4 py-3 tracking-wider placeholder-green-300 uppercase transition duration-150 ease-in-out border-green-300 rounded-none form-textarea to-green-500 ${
+              errors[name]?.message ? 'border-red-300' : 'border-green-300'
+            }`}
           />
         </div>
       </label>

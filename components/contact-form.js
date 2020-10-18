@@ -9,7 +9,11 @@ function ContactForm() {
     <article className="relative w-full max-w-xl px-4 py-4 mx-auto">
       <NetlifyForm
         handleSubmit={handleSubmit}
+        register={register}
         setIsSubmitting={setIsSubmitting}
+        action="/success/"
+        name="contact_form"
+        className="w-full max-w-lg mx-auto space-y-6"
       >
         <Input
           name="full_name"
@@ -41,7 +45,9 @@ function ContactForm() {
           <button
             type="submit"
             disabled={isSubmitting}
-            className="px-8 py-2 mt-4 tracking-wider text-white uppercase transition ease-in-out bg-green-500 border border-green-500 transition-duration-150 hover:text-green-500 hover:bg-white focus:text-green-500 focus:bg-white"
+            className={`px-8 py-2 mt-4 tracking-wider text-white uppercase transition ease-in-out bg-green-500 border border-green-500 transition-duration-150 hover:text-green-500 hover:bg-white focus:text-green-500 focus:bg-white ${
+              isSubmitting ? 'opacity-50 cursor-wait' : ''
+            } `}
           >
             Submit
           </button>
