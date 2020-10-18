@@ -16,11 +16,6 @@ body {
   @apply text-xl italic uppercase;
 }
 
-/* Style selected text */
-::selection {
-  @apply text-white bg-brand-blue;
-}
-
 @responsive {
   /* Used to prevent content being hidden behind bottom menu controls on mobile Safari */
   .fill-available {
@@ -37,7 +32,7 @@ ul.keen-slider {
   user-select: auto;
 }
 
-.prose ul > li {
+/* .prose ul > li {
   position: relative;
   padding-left: 1.75em;
 }
@@ -57,7 +52,7 @@ ul.keen-slider {
   height: 0.375em;
   top: 0.6875em;
   left: 0.25em;
-}
+} */
 
 /* Turn off animations for people who have the prefers-reduced-motion query enabled */
 @media (prefers-reduced-motion: reduce) {
