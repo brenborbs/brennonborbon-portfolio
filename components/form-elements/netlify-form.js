@@ -37,7 +37,7 @@ function NetlifyForm({
   const router = useRouter();
   return (
     <form
-      data-netlify
+      data-netlify="true"
       data-netlify-honeypot="bot-field"
       action={action}
       method="POST"
