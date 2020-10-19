@@ -20,13 +20,7 @@ function Carousel() {
                   <li key={slide.id} className="keen-slider__slide">
                     <div className="relative">
                       <div className="relative h-0 sm:aspect-ratio-4/3 lg:aspect-ratio-16/9">
-                        <div className="absolute flex-0">
-                          <img
-                            src={slide.image}
-                            alt={slide.title}
-                            className="flex-1 object-cover"
-                          />
-                        </div>
+                        <Picture path={slide.image} title={slide.title} />
                       </div>
                       <div className="absolute inset-0 flex flex-col items-center justify-center">
                         <h2 className="text-3xl text-white uppercase md:text-5xl font-roboto text-shadow">
@@ -63,6 +57,22 @@ function Carousel() {
           <ArrowDown />
         </div>
       </div>
+    </div>
+  );
+}
+
+function Picture({ path, title }) {
+  return (
+    <div className="absolute flex">
+      <picture>
+        <source srcSet={require(`../images/${path}?webp`)} type="image/webp" />
+        <source srcSet={require(`../images/${path}`)} type="image/jpeg" />
+        <img
+          src={require(`../images/${path}`)}
+          alt={title}
+          className="flex-1 object-cover"
+        />
+      </picture>
     </div>
   );
 }

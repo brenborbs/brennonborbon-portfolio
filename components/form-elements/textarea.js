@@ -18,7 +18,7 @@ function TextArea({
           {label}
           {required && ' *'}
         </span>
-        <div className="relative mt-1 shadow-sm font-architects">
+        <div className="relative mt-1 shadow-sm">
           <textarea
             id={name}
             name={name}
@@ -29,7 +29,7 @@ function TextArea({
             ref={register({
               required: <Error message={`${label} is a required field`} />,
             })}
-            className="block w-full px-4 py-3 tracking-wider uppercase transition duration-150 ease-in-out rounded-none form-textarea"
+            className="block w-full px-4 py-3 tracking-wider placeholder-gray-600 uppercase transition duration-150 ease-in-out border rounded-none form-textarea"
           />
         </div>
       </label>

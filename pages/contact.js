@@ -1,13 +1,13 @@
 import { Layout, SEO, Hero, ContactForm, InstagramWidget } from '../components';
 
-const img = '/contact.jpg';
+const path = 'contact.jpg';
 
 export default function Contact() {
   return (
     <Layout>
       <SEO title="Contact" />
       <Hero
-        img={img}
+        path={path}
         title="Contact Us"
         cta="NextJS Tailwindcss"
         action="Hurry!"

@@ -1,13 +1,13 @@
 import { Layout, SEO, Question, Hero, InstagramWidget } from '../components';
 
-const img = '/landing.jpg';
+const path = 'landing.jpg';
 
 export default function Faqs() {
   return (
     <Layout>
       <SEO title="faqs" />
       <Hero
-        img={img}
+        path={path}
         title="Faqs Page"
         cta="NextJS Tailwindcss"
         action="Can I answer your question?"

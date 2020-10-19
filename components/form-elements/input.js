@@ -16,7 +16,7 @@ function Input({
     <div>
       <label htmlFor={name}>
         <span className="sr-only">{label}</span>
-        <div className="relative mt-1 shadow-sm font-architects">
+        <div className="relative mt-1 shadow-sm">
           <input
             id={name}
             name={name}
@@ -37,7 +37,7 @@ function Input({
                 ),
               },
             })}
-            className="block w-full px-4 py-3 tracking-wider text-black uppercase transition duration-150 ease-in-out rounded-none form-input"
+            className="block w-full px-4 py-3 tracking-wider text-black placeholder-gray-600 uppercase transition duration-150 ease-in-out border rounded-none form-input"
           />
         </div>
       </label>
