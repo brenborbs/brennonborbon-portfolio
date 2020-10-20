@@ -37,7 +37,7 @@ function Input({
                 ),
               },
             })}
-            className="block w-full px-4 py-3 tracking-wider text-black placeholder-gray-600 uppercase transition duration-150 ease-in-out border rounded-none form-input"
+            className="block w-full px-4 py-3 tracking-wider text-black placeholder-gray-600 transition duration-150 ease-in-out border rounded-none form-input"
           />
         </div>
       </label>
