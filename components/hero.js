@@ -4,7 +4,7 @@ import { Picture } from './picture';
 
 function Hero({ path, title, cta, action }) {
   return (
-    <article className="relative w-full mx-auto max-w-7xl">
+    <article className="relative w-full mx-auto overflow-hidden max-w-7xl">
       <div className="relative h-0 aspect-ratio-16/9">
         <Picture path={path} title={title} />
       </div>
