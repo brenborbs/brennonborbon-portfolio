@@ -3,7 +3,7 @@ import { Layout, SEO, InstagramWidget } from '../components';
 export default function Success() {
   return (
     <Layout>
-      <SEO title="404 Page" />
+      <SEO title="Success" />
       <div className="w-full mx-auto max-w-7xl">
         <div className="flex items-center justify-center pt-14">
           <h2 className="text-3xl font-bold uppercase font-architects">
