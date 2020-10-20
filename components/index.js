@@ -7,4 +7,5 @@ export * from './instagram-widget';
 export * from './layout';
 export * from './question';
 export * from './review';
+export * from './picture';
 export * from './seo';

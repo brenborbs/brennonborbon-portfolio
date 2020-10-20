@@ -1,20 +1,21 @@
 import { Layout, SEO, Question, Hero, InstagramWidget } from '../components';
 
-const img = '/landing.jpg';
+const path = 'landing.jpg';
 
 export default function Faqs() {
   return (
     <Layout>
       <SEO title="faqs" />
       <Hero
-        img={img}
+        path={path}
         title="Faqs Page"
         cta="NextJS Tailwindcss"
         action="Can I answer your question?"
       />
+      {/* TODO: mt-40 is temporary until fix is completed on hero */}
       <div className="px-4 bg-white sm:px-6 lg:px-8">
         <div className="py-8 mx-auto">
-          <div className="relative flex flex-col items-center justify-center mx-auto mt-2">
+          <div className="relative flex flex-col items-center justify-center mx-auto mt-2 ">
             <h2 className="px-1 py-1 mb-8 text-4xl font-bold bg-green-300 rounded-sm font-architects">
               Questions
             </h2>

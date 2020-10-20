@@ -78,18 +78,30 @@ function Builds() {
                 </dl>
               </div>
               <div className="overflow-hidden rounded-none">
-                <div className="relative h-0 aspect-ratio-square">
-                  <img src={item.image1} alt={item.name} />
-                </div>
-                <div className="relative h-0 aspect-ratio-square">
-                  <img src={item.image2} alt={item.name} />
-                </div>
+                <Picture path={item.image1} alt={item.name} />
+                <Picture path={item.image2} alt={item.name} />
               </div>
             </div>
           </TabPanel>
         ))}
       </TabPanels>
     </Tabs>
+  );
+}
+
+function Picture({ path, title }) {
+  return (
+    <div className="relative h-0 aspect-ratio-square">
+      <picture>
+        <source srcSet={require(`../images/${path}?webp`)} type="image/webp" />
+        <source srcSet={require(`../images/${path}`)} type="image/jpeg" />
+        <img
+          src={require(`../images/${path}`)}
+          alt={title}
+          className="flex-1"
+        />
+      </picture>
+    </div>
   );
 }
 

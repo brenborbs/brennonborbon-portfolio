@@ -1,3 +1,7 @@
+import { Picture } from './picture';
+
+const path = 'about.jpg';
+
 function About() {
   return (
     <article className="relative">
@@ -5,17 +9,11 @@ function About() {
         <div className="grid justify-center gap-6 md:grid-cols-2">
           <div className="w-full mx-auto max-w-prose">
             <div className="relative h-0 aspect-ratio-4/3">
-              <div className="absolute inset-0 flex">
-                <img
-                  src="/about.jpg"
-                  alt="About"
-                  className="flex-1 rounded-md"
-                />
-              </div>
+              <Picture path={path} title="About" />
             </div>
           </div>
           <div className="md:py-12">
-            <h2 className="px-1 py-1 text-4xl font-bold text-center bg-green-300 rounded-sm  font-architects">
+            <h2 className="px-1 py-1 text-4xl font-bold text-center bg-green-300 rounded-sm font-architects">
               Our Story
             </h2>
             <div className="mt-6 prose">

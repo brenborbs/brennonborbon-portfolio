@@ -1,13 +1,12 @@
 import Link from 'next/link';
 import PropTypes from 'prop-types';
+import { Picture } from './picture';
 
-function Hero({ img, title, cta, action }) {
+function Hero({ path, title, cta, action }) {
   return (
-    <article className="relative w-full mx-auto max-w-7xl">
+    <article className="relative w-full mx-auto overflow-hidden max-w-7xl">
       <div className="relative h-0 aspect-ratio-16/9">
-        <div className="absolute inset-0 flex">
-          <img src={img} alt={title} className="flex-1" />
-        </div>
+        <Picture path={path} title={title} />
       </div>
       <div className="absolute inset-0 flex items-center justify-center px-4 sm:px-6 lg:px-8">
         <div className="text-center text-white uppercase">
@@ -29,7 +28,7 @@ function Hero({ img, title, cta, action }) {
 }
 
 Hero.propTypes = {
-  img: PropTypes.string.isRequired,
+  path: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   cta: PropTypes.string.isRequired,
   action: PropTypes.string.isRequired,
