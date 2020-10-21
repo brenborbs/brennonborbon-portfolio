@@ -1,13 +1,47 @@
 import PropTypes from 'prop-types';
+import { useState, useRef, useEffect } from 'react';
 import { useKeenSlider } from 'keen-slider/react';
 import { carousel } from '../data';
 import Link from 'next/link';
 
 function Carousel() {
+  const [isLoaded, setIsLoaded] = useState(false);
+
+  const [pause, setPause] = useState(false);
+
+  const timer = useRef();
+
   const [sliderRef, slider] = useKeenSlider({
-    initial: 0,
     loop: true,
+    created: () => setIsLoaded(true),
+    duration: 1500,
+    dragStart: () => {
+      setPause(true);
+    },
+    dragEnd: () => {
+      setPause(false);
+    },
   });
+
+  useEffect(() => {
+    sliderRef.current.addEventListener('mouseover', () => {
+      setPause(true);
+    });
+    sliderRef.current.addEventListener('mouseout', () => {
+      setPause(false);
+    });
+  }, [sliderRef]);
+
+  useEffect(() => {
+    timer.current = setInterval(() => {
+      if (!pause && slider) {
+        slider.next();
+      }
+    }, 3500);
+    return () => {
+      clearInterval(timer.current);
+    };
+  }, [pause, slider]);
 
   return (
     <div className="relative">
@@ -17,7 +51,12 @@ function Carousel() {
             <ul ref={sliderRef} className="flex-1 keen-slider">
               {carousel.map((slide) => {
                 return (
-                  <li key={slide.id} className="keen-slider__slide">
+                  <li
+                    key={slide.id}
+                    className={`keen-slider__slide ${
+                      isLoaded ? 'block' : 'hidden'
+                    }`}
+                  >
                     <div className="relative">
                       <div className="relative h-0 sm:aspect-ratio-4/3 lg:aspect-ratio-16/9">
                         <Picture path={slide.image} title={slide.title} />
