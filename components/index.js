@@ -1,4 +1,5 @@
 export * from './about';
+export * from './cards';
 export * from './builds';
 export * from './carousel';
 export * from './contact-form';

@@ -20,20 +20,7 @@ const publicRuntimeConfig = {
 };
 
 module.exports = withPlugins([
-  [
-    optimizedImages,
-    {
-      /* config for next-optimized-images */
-      mozjpeg: {
-        quality: 80,
-      },
-      pngquant: {
-        speed: 3,
-        strip: true,
-        verbose: true,
-      },
-    },
-  ],
+  [optimizedImages],
   {
     publicRuntimeConfig,
   },
