@@ -1,5 +1,4 @@
 const withPlugins = require('next-compose-plugins');
-const optimizedImages = require('next-optimized-images');
 
 const publicRuntimeConfig = {
   // Sample only, you can change the values accordingly!
@@ -20,7 +19,6 @@ const publicRuntimeConfig = {
 };
 
 module.exports = withPlugins([
-  [optimizedImages],
   {
     publicRuntimeConfig,
   },
