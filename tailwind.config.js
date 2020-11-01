@@ -38,6 +38,7 @@ module.exports = {
           blue: '#1c75bb',
           yellow: '#f9b818',
           black: '#060000',
+          'sky-blue': '#e9f0f6',
         },
       },
       spacing: {
