@@ -50,12 +50,7 @@ function BlogCards() {
           {sample.map((item) => (
             <div className="p-4 md:w-1/3" key={item.id}>
               <div className="h-full overflow-hidden rounded-sm shadow-md">
-                <Image
-                  src={require(`../static/${item.image}`)}
-                  alt={`Photo of ${item.title}`}
-                  unsized
-                  className="object-cover object-center w-full lg:h-48 md:h-36"
-                />
+                <Picture path={item.image} alt={`Photo of ${item.title}`} />
                 <div className="p-6">
                   <h2 className="mb-1 text-xs font-medium tracking-widest text-gray-500 title-font">
                     {item.category}
@@ -120,6 +115,20 @@ function BlogCards() {
         </div>
       </div>
     </section>
+  );
+}
+
+function Picture({ path, title }) {
+  return (
+    <picture>
+      <source srcSet={require(`../images/${path}?webp`)} type="image/webp" />
+      <source srcSet={require(`../images/${path}`)} type="image/jpeg" />
+      <img
+        src={require(`../images/${path}`)}
+        alt={title}
+        className="object-cover object-center w-full lg:h-48 md:h-36"
+      />
+    </picture>
   );
 }
 

@@ -1,18 +1,17 @@
 import PropTypes from 'prop-types';
-import Image from 'next/image';
 
 function Picture({ path, title }) {
   return (
     <div className="absolute inset-0 flex">
-      <Image
-        alt={title}
-        className="flex-1"
-        src={require(`../static/${path}`)}
-        unsized
-        // options
-        // width={1000}
-        // height={1000}
-      />
+      <picture>
+        <source srcSet={require(`../images/${path}?webp`)} type="image/webp" />
+        <source srcSet={require(`../images/${path}`)} type="image/jpeg" />
+        <img
+          src={require(`../images/${path}`)}
+          alt={title}
+          className="flex-1"
+        />
+      </picture>
     </div>
   );
 }
