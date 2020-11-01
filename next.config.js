@@ -1,4 +1,5 @@
 const withPlugins = require('next-compose-plugins');
+const optimizedImages = require('next-optimized-images');
 
 const publicRuntimeConfig = {
   // Sample only, you can change the values accordingly!
@@ -18,15 +19,8 @@ const publicRuntimeConfig = {
   DOMAIN_PRODUCTION: 'https://nextjstailwindcsstemplate',
 };
 
-const isProd = process.env.NODE_ENV === 'production';
-
 module.exports = withPlugins([
-  {
-    // Use the CDN in production and localhost for development.
-    assetPrefix: isProd
-      ? 'https://brenborbs-nextjs-tailwindcss.netlify.app'
-      : '',
-  },
+  [optimizedImages],
   {
     publicRuntimeConfig,
   },

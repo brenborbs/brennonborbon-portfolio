@@ -7,7 +7,7 @@ function Picture({ path, title }) {
       <Image
         alt={title}
         className="flex-1"
-        src={path}
+        src={require(`../static/${path}`)}
         unsized
         // options
         // width={1000}

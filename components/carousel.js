@@ -104,7 +104,12 @@ function Carousel() {
 function Picture({ path, title }) {
   return (
     <div className="absolute flex">
-      <Image className="flex-1" alt={title} src={path} unsized />
+      <Image
+        className="flex-1"
+        alt={title}
+        src={require(`../static/${path}`)}
+        unsized
+      />
     </div>
   );
 }

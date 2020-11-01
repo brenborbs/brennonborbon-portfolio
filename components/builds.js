@@ -93,7 +93,12 @@ function Builds() {
 function Picture({ path, title }) {
   return (
     <div className="relative h-0 aspect-ratio-square">
-      <Image className="flex-1" alt={title} src={path} unsized />
+      <Image
+        className="flex-1"
+        alt={title}
+        src={require(`../static/${path}`)}
+        unsized
+      />
     </div>
   );
 }

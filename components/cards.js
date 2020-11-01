@@ -5,7 +5,7 @@ import Link from 'next/link';
 const sample = [
   {
     id: nanoid(),
-    image: '/static/about.jpg',
+    image: 'about.jpg',
     category: 'Music',
     title: 'Panama',
     desc: "The greatest rock solo in the 70's",
@@ -14,7 +14,7 @@ const sample = [
   },
   {
     id: nanoid(),
-    image: '/static/contact.jpg',
+    image: 'contact.jpg',
     category: 'Coding',
     title: 'How to be a great coder',
     desc: 'We must join the next coding wave',
@@ -23,7 +23,7 @@ const sample = [
   },
   {
     id: nanoid(),
-    image: '/static/landing.jpg',
+    image: 'landing.jpg',
     category: 'History',
     title: 'When the smoke is coming down',
     desc: 'I love the sweet taste of the aroma on the 90s',
@@ -32,7 +32,7 @@ const sample = [
   },
   {
     id: nanoid(),
-    image: '/static/slide-1.jpg',
+    image: 'slide-1.jpg',
     category: '',
     title: 'Mountain and riches in the skies',
     desc:
@@ -51,7 +51,7 @@ function BlogCards() {
             <div className="p-4 md:w-1/3" key={item.id}>
               <div className="h-full overflow-hidden rounded-sm shadow-md">
                 <Image
-                  src={item.image}
+                  src={require(`../static/${item.image}`)}
                   alt={`Photo of ${item.title}`}
                   unsized
                   className="object-cover object-center w-full lg:h-48 md:h-36"
