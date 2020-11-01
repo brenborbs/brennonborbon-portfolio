@@ -1,6 +1,6 @@
 import { Picture } from './picture';
 
-const path = '/static/images/about.jpg';
+const path = '/images/about.jpg';
 
 function About() {
   return (

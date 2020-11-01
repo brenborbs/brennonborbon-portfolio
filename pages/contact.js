@@ -1,6 +1,6 @@
 import { Layout, SEO, Hero, ContactForm, InstagramWidget } from '../components';
 
-const path = '/static/images/contact.jpg';
+const path = '/images/contact.jpg';
 
 export default function Contact() {
   return (
