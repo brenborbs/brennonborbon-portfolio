@@ -18,7 +18,15 @@ const publicRuntimeConfig = {
   DOMAIN_PRODUCTION: 'https://nextjstailwindcsstemplate',
 };
 
+const isProd = process.env.NODE_ENV === 'production';
+
 module.exports = withPlugins([
+  {
+    // Use the CDN in production and localhost for development.
+    assetPrefix: isProd
+      ? 'https://brenborbs-nextjs-tailwindcss.netlify.app'
+      : '',
+  },
   {
     publicRuntimeConfig,
   },
