@@ -13,8 +13,8 @@ function Footer() {
   return (
     <footer className="text-green-500 bg-white">
       <div className="w-full px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:py-16 lg:px-8">
-        <div className="gap-8 md:grid md:grid-cols-3">
-          <div className="my-6">
+        <div className="xl:grid xl:grid-cols-3">
+          <div className="xl:col-span-1">
             <div className="flex flex-col justify-center">
               <Link href="/">
                 <a className="flex mx-auto my-auto ">
@@ -37,10 +37,23 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div className="sm:grid sm:grid-cols-2 md:col-span-2">
+          <div className="grid grid-cols-2 gap-2 md:grid-cols-3 md:ml-10 md:mx-auto md:gap-x-4 xl:col-span-2">
             <div className="my-6">
               <ul className="space-y-1">
-                {footerNavigation.map((node) => (
+                {footerNavigation.col1.map((node) => (
+                  <li key={node.id}>
+                    <Link href={node.slug}>
+                      <a className="text-green-500 uppercase transition duration-150 ease-in-out hover:underline focus:underline focus:shadow-none">
+                        {node.label}
+                      </a>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="my-6">
+              <ul className="space-y-1">
+                {footerNavigation.col2.map((node) => (
                   <li key={node.id}>
                     <Link href={node.slug}>
                       <a className="text-green-500 uppercase transition duration-150 ease-in-out hover:underline focus:underline focus:shadow-none">

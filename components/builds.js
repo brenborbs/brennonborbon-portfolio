@@ -2,6 +2,7 @@ import { Tabs, TabList, Tab, TabPanels, TabPanel } from '@reach/tabs';
 import Link from 'next/link';
 import { nanoid } from 'nanoid';
 import projects from '../data/project/projects.json';
+import Image from 'next/image';
 
 const projectNames = [
   {

@@ -22,7 +22,12 @@ export const mainNavigation = [
     slug: '/projects',
     icon: HomeIcon,
   },
-
+  {
+    id: nanoid(),
+    label: 'Blog',
+    slug: '/blog',
+    icon: HomeIcon,
+  },
   {
     id: nanoid(),
     label: 'Faqs',
@@ -37,12 +42,42 @@ export const mainNavigation = [
   },
 ];
 
-export const footerNavigation = [
-  { id: nanoid(), label: 'Home', slug: '/' },
-  { id: nanoid(), label: 'Projects', slug: '/projects' },
-  { id: nanoid(), label: 'Faqs', slug: '/faqs' },
-  { id: nanoid(), label: 'Contact', slug: '/contact' },
-];
+export const footerNavigation = {
+  col1: [
+    {
+      id: nanoid(),
+      label: 'Home',
+      slug: '/',
+      icon: HomeIcon,
+    },
+    {
+      id: nanoid(),
+      label: 'Projects',
+      slug: '/projects',
+      icon: HomeIcon,
+    },
+    {
+      id: nanoid(),
+      label: 'Blog',
+      slug: '/blog',
+      icon: HomeIcon,
+    },
+  ],
+  col2: [
+    {
+      id: nanoid(),
+      label: 'Faqs',
+      slug: '/faqs',
+      icon: HomeIcon,
+    },
+    {
+      id: nanoid(),
+      label: 'Contact',
+      slug: '/contact',
+      icon: HomeIcon,
+    },
+  ],
+};
 
 export const socialLinks = [
   {

@@ -3,6 +3,7 @@ import { useState, useRef, useEffect } from 'react';
 import { useKeenSlider } from 'keen-slider/react';
 import { carousel } from '../data';
 import Link from 'next/link';
+import Image from 'next/image';
 
 function Carousel() {
   const [isLoaded, setIsLoaded] = useState(false);

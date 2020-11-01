@@ -6,7 +6,7 @@ import { Footer } from './footer';
 
 function Layout({ children }) {
   return (
-    <div className="relative flex flex-col min-h-screen text-gray-700 bg-white font-roboto fill-available">
+    <div className="relative flex flex-col min-h-screen text-gray-700 bg-white font-nunito fill-available">
       <Header />
       <main className="flex-1">{children}</main>
       <Footer />

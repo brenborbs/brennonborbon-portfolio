@@ -51,7 +51,7 @@
     "name": "Pacific Blue AU",
     "description" : "A website build for an Australian local electrical contractor. I was tasked to build some of the pages, adding some svg's, sliders, images and content.",
     "url": "frontlineremovals.au",
-     "image1": "about.jpg",
+   "image1": "about.jpg",
     "image2": "landing.jpg",
     "productivity": [
       {
@@ -99,7 +99,7 @@
     "name": "Moda Latina AU",
     "description" : "An e-commerce website using shopify.The site owners wanted to improved the existing site and move towards 'headless' front-end solution. A new design was made and so, I worked on most of the pages including the cart",
     "url": "modalatina.au",
-  "image1": "about.jpg",
+ "image1": "about.jpg",
     "image2": "landing.jpg",
     "productivity": [
       {
@@ -147,7 +147,7 @@
     "name": "Blue Cow Gelato AU",
     "description" : "This is site has been approved",
     "url": "frontlineremovals.au",
-  "image1": "about.jpg",
+ "image1": "about.jpg",
     "image2": "landing.jpg",
     "productivity": [
       {
@@ -180,7 +180,7 @@
     "name": "JMC Limited",
     "description" : "A website build for a Danish painting contractor serving the marine industry. I was tasked to design and create the website which includes some media content such as videos, blogs and company updates",
     "url": "https://jmc-limited.com/",
-   "image1": "about.jpg",
+  "image1": "about.jpg",
     "image2": "landing.jpg",
     "productivity": [
       {
