@@ -3,6 +3,7 @@ import { useState, useRef, useEffect } from 'react';
 import { useKeenSlider } from 'keen-slider/react';
 import { carousel } from '../data';
 import Link from 'next/link';
+import Image from 'next/image';
 
 function Carousel() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -103,15 +104,7 @@ function Carousel() {
 function Picture({ path, title }) {
   return (
     <div className="absolute flex">
-      <picture>
-        <source srcSet={require(`../images/${path}?webp`)} type="image/webp" />
-        <source srcSet={require(`../images/${path}`)} type="image/jpeg" />
-        <img
-          src={require(`../images/${path}`)}
-          alt={title}
-          className="flex-1 object-cover"
-        />
-      </picture>
+      <Image className="flex-1" alt={title} src={path} unsized />
     </div>
   );
 }

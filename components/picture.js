@@ -6,8 +6,8 @@ function Picture({ path, title }) {
     <div className="absolute inset-0 flex">
       <Image
         alt={title}
-        className="flex-1 w-full h-full"
-        src={require(`../images/${path}`)}
+        className="flex-1"
+        src={path}
         unsized
         // options
         // width={1000}
