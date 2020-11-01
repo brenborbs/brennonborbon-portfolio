@@ -8,7 +8,7 @@ function Spinner() {
   return (
     <ReactSVGSpinner
       size="2em"
-      color={fullConfig.theme.colors.brand['sky-blue']}
+      color={fullConfig.theme.colors.brand.blue}
       thickness={3}
       speed="slow"
     />

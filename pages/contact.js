@@ -50,12 +50,15 @@ export default function Contact() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col w-full mt-8 bg-white lg:w-1/3 md:w-1/2 md:ml-auto md:py-8 md:mt-0">
+          <div className="flex flex-col w-full mt-8 lg:w-1/3 md:w-1/2 md:ml-auto md:py-8 md:mt-0">
             <h2 className="mb-1 text-lg font-medium text-gray-900 title-font">
               We are happy to hear from you!
             </h2>
             <p className="mb-5 leading-relaxed text-gray-600">
-              Post-ironic portland shabby chic echo park, banjo fashion axe
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+              dignissimos veritatis delectus odit, fugit iusto natus praesentium
+              repellendus numquam amet deleniti, cum expedita minima nam
+              repudiandae saepe? Nisi, recusandae reprehenderit.
             </p>
             <ContactForm />
           </div>
