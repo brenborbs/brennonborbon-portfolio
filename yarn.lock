@@ -5810,7 +5810,7 @@ next-tick@~1.0.0:
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
 
-next@10.0.0:
+next@^10.0.0:
   version "10.0.0"
   resolved "https://registry.yarnpkg.com/next/-/next-10.0.0.tgz#fbc82fa69f05bf82fb5c4e160151f38fb9615e99"
   integrity sha512-hpJkikt6tqwj7DfD5Mizwc1kDsaaS73TQK6lJL+++Ht8QXIEs+KUqTZULgdMk80mDV2Zhzo9/JYMEranWwAFLA==
@@ -6971,6 +6971,11 @@ react-icons@^3.11.0:
   dependencies:
     camelcase "^5.0.0"
 
+react-intersection-observer@^8.29.1:
+  version "8.29.1"
+  resolved "https://registry.yarnpkg.com/react-intersection-observer/-/react-intersection-observer-8.29.1.tgz#8c6f494ca81b39aee9f509f12d29443fc66a2256"
+  integrity sha512-JLxJ4V0L73ailfvbYQ2/lfAyirtud1WsRsYnzHyVLMfQff1AIG1lWdC5XaGSK4yb9jZHVbbNsrVIO3PJm03koQ==
+
 react-is@16.13.1, react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
@@ -7017,7 +7022,15 @@ react-style-singleton@^2.1.0:
     invariant "^2.2.4"
     tslib "^1.0.0"
 
-react@16.14.0:
+react-svg-spinner@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/react-svg-spinner/-/react-svg-spinner-1.0.4.tgz#32427f8987b3393cfd91c14f9b3751a67ec35546"
+  integrity sha512-lpOdpptU5sutxdToI5vffuWAqQDatfz1cbWa1ThEmX5fonmdH8UgoM/iAb6ToKf6iv0z+X4jZxSqDar5EtcEjQ==
+  dependencies:
+    prop-types "^15.7.2"
+    react "^16.0.0"
+
+react@16.14.0, react@^16.0.0:
   version "16.14.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.14.0.tgz#94d776ddd0aaa37da3eda8fc5b6b18a4c9a3114d"
   integrity sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==

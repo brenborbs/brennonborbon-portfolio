@@ -6,14 +6,14 @@ function ContactForm() {
   const { register, handleSubmit, errors } = useForm({ mode: 'onBlur' });
   const [isSubmitting, setIsSubmitting] = useState(false);
   return (
-    <article className="relative w-full max-w-xl px-4 py-4 mx-auto mt-6 space-y-8 bg-white rounded-md shadow lg:mb-12 sm:px-6 lg:px-8">
+    <article className="relative w-full px-4 py-4 mx-auto mt-6 space-y-8 bg-white rounded-md shadow lg:mb-12 sm:px-6 lg:px-8">
       <NetlifyForm
         handleSubmit={handleSubmit}
         register={register}
         setIsSubmitting={setIsSubmitting}
         action="/success/"
         name="contact_form"
-        className="w-full max-w-lg mx-auto space-y-6"
+        className="w-full mx-auto space-y-6"
       >
         <Input
           name="full_name"
