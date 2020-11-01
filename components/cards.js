@@ -5,7 +5,7 @@ import Link from 'next/link';
 const sample = [
   {
     id: nanoid(),
-    image: '/about.jpg',
+    image: '/static/about.jpg',
     category: 'Music',
     title: 'Panama',
     desc: "The greatest rock solo in the 70's",
@@ -14,7 +14,7 @@ const sample = [
   },
   {
     id: nanoid(),
-    image: '/contact.jpg',
+    image: '/static/contact.jpg',
     category: 'Coding',
     title: 'How to be a great coder',
     desc: 'We must join the next coding wave',
@@ -23,7 +23,7 @@ const sample = [
   },
   {
     id: nanoid(),
-    image: '/landing.jpg',
+    image: '/static/landing.jpg',
     category: 'History',
     title: 'When the smoke is coming down',
     desc: 'I love the sweet taste of the aroma on the 90s',
@@ -32,7 +32,7 @@ const sample = [
   },
   {
     id: nanoid(),
-    image: '/slide-1.jpg',
+    image: '/static/slide-1.jpg',
     category: '',
     title: 'Mountain and riches in the skies',
     desc:

@@ -1,6 +1,6 @@
 import { Layout, SEO, Question, Hero, InstagramWidget } from '../components';
 
-const path = '/landing.jpg';
+const path = '/static/landing.jpg';
 
 export default function Faqs() {
   return (
