@@ -3,15 +3,15 @@ const optimizedImages = require('next-optimized-images');
 
 const publicRuntimeConfig = {
   // Sample only, you can change the values accordingly!
-  APP_NAME: 'NextJS Tailwindcss Template',
-  APP_DESCRIPTION: 'A Tailwindcss NextJS Template',
+  APP_NAME: 'Brennon Portfolio',
+  APP_DESCRIPTION: 'Brennon Porfolio built using NextJS and Tailwindcss',
   APP_ADDRESS: {
-    line1: '25 Saucer Street',
-    line2: 'Earth Works Cebu',
+    line1: '25 Zodiac Drive Pleasant Homes Subdivision',
+    line2: 'Punta Princesa Cebu City Philippines',
   },
   APP_TELEPHONE: '63-995-711-2045',
   APP_OFFICEHOURS: 'Mon - Fri , time: 9am - 5pm',
-  APP_EMAIL: 'bbq@nextjstailwindcss.ph',
+  APP_EMAIL: 'borbonbrennon@gmail.com',
   API_DEVELOPMENT: 'http://localhost:8000/api',
   API_PRODUCTION: 'https://nextjstailwindcsstemplate.com/api',
   PRODUCTION: false,
