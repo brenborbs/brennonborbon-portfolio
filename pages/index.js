@@ -1,11 +1,4 @@
-import {
-  Layout,
-  SEO,
-  InstagramWidget,
-  About,
-  Review,
-  Carousel,
-} from '../components';
+import { Layout, SEO, InstagramWidget, About, Carousel } from '../components';
 
 export default function Home() {
   return (
@@ -13,7 +6,6 @@ export default function Home() {
       <SEO title="Home" />
       <Carousel />
       <About />
-      <Review />
       <InstagramWidget />
     </Layout>
   );

@@ -25,7 +25,7 @@ export default function Faqs() {
             <Question heading="What do you do in your freetime?">
               <Hobby />
             </Question>
-            <Question heading="What is your birthday">
+            <Question heading="Do you have a pet?">
               <Born />
             </Question>
             <Question heading="Remote work or office?">
@@ -43,10 +43,9 @@ function Education() {
   return (
     <div className="prose">
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo corporis
-        unde sapiente dolorum dolores accusamus provident labore delectus
-        eveniet laborum? Aspernatur nam, ipsum dolor porro fugit voluptas nemo
-        nostrum nobis?
+        I am a self-taught developer who has worked hard since 2018 to honed my
+        skills up to professional level. Though, I hold an engineering degree
+        which is not I.T nor CS related.
       </p>
     </div>
   );
@@ -56,10 +55,11 @@ function Hobby() {
   return (
     <div className="prose">
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo corporis
-        unde sapiente dolorum dolores accusamus provident labore delectus
-        eveniet laborum? Aspernatur nam, ipsum dolor porro fugit voluptas nemo
-        nostrum nobis?
+        when I am not messing around with code, I spend my time playing my
+        custom Mexican Telecaster. I am also an intermediate guitar player and I
+        mostly play from Classic rock, Blues, funk, Glam Rock, Grunge up to
+        Metal. When not in the mood for playing, I mostly drive along in the
+        provinces with my family.
       </p>
     </div>
   );
@@ -69,10 +69,10 @@ function Born() {
   return (
     <div className="prose">
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo corporis
-        unde sapiente dolorum dolores accusamus provident labore delectus
-        eveniet laborum? Aspernatur nam, ipsum dolor porro fugit voluptas nemo
-        nostrum nobis?
+        Yes, I have a pet. He is a Sheepadoodle and he's named is Rocket. We got
+        his name from Rocket of Guardians of the Galaxy because he is one of our
+        favorite Marvel characters. He is fun and at the same time annoying just
+        like our dog, Rocket.
       </p>
     </div>
   );
@@ -82,10 +82,10 @@ function Location() {
   return (
     <div className="prose">
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo corporis
-        unde sapiente dolorum dolores accusamus provident labore delectus
-        eveniet laborum? Aspernatur nam, ipsum dolor porro fugit voluptas nemo
-        nostrum nobis?
+        Be it in the office or working remotely in a team, I can be adjust to
+        both working environments. I have also experienced working outside the
+        country, given my past employments with my previous profession an an
+        engineer.
       </p>
     </div>
   );

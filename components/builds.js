@@ -2,7 +2,6 @@ import { Tabs, TabList, Tab, TabPanels, TabPanel } from '@reach/tabs';
 import Link from 'next/link';
 import { nanoid } from 'nanoid';
 import projects from '../data/project/projects.json';
-import Image from 'next/image';
 
 const projectNames = [
   {
@@ -20,13 +19,16 @@ const projectNames = [
   {
     projectName: 'JMC Limited',
   },
+  {
+    projectName: 'React Cebu',
+  },
 ];
 
 function Builds() {
   return (
     <Tabs
       orientation="vertical"
-      className="flex w-full max-w-2xl mx-auto border rounded-none"
+      className="flex w-full max-w-5xl mx-auto border rounded-none"
     >
       <TabList className="flex flex-col justify-start flex-shrink-0 w-64 bg-white border-r divide-y rounded-l-lg">
         {projectNames.map((item) => (

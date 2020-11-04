@@ -1,10 +1,10 @@
 [
   {
     "name": "Frontline Removals AU",
-    "description" : "My task was to update several pages including adding a new page, animations such as sliders and forms.",
-    "url": "frontlineremovals.au",
-    "image1": "about.jpg",
-    "image2": "landing.jpg",
+    "description" : "I was tasked was to update several pages including adding a new page, animations such as sliders and forms.",
+    "url": "https://www.frontlineremovals.com.au/",
+    "image1": "frontline-1.jpg",
+    "image2": "frontline-2.jpg",
     "productivity": [
       {
         "tools" : "team productivity",
@@ -49,10 +49,10 @@
   },
   {
     "name": "Pacific Blue AU",
-    "description" : "A website build for an Australian local electrical contractor. I was tasked to build some of the pages, adding some svg's, sliders, images and content.",
-    "url": "frontlineremovals.au",
-   "image1": "about.jpg",
-    "image2": "landing.jpg",
+    "description" : "A website build for an Australian local electrical contractor. I was given to worked on the forms, Hero images and CTA's , Instagram widget and more.",
+    "url": "https://www.pacificblueelectrical.com.au/",
+   "image1": "pacific-1.jpg",
+    "image2": "pacific-2.jpg",
     "productivity": [
       {
         "tools" : "team productivity",
@@ -97,10 +97,10 @@
   },
   {
     "name": "Moda Latina AU",
-    "description" : "An e-commerce website using shopify.The site owners wanted to improved the existing site and move towards 'headless' front-end solution. A new design was made and so, I worked on most of the pages including the cart",
-    "url": "modalatina.au",
- "image1": "about.jpg",
-    "image2": "landing.jpg",
+    "description" : "An e-commerce website using shopify. The site owners wanted to improved the existing site and move towards 'headless' front-end solution. A new design was made and so, I given to worked some of the pages including the cart.",
+    "url": "https://www.modalatina.com.au/",
+ "image1": "moda-1.png",
+    "image2": "moda-2.png",
     "productivity": [
       {
         "tools" : "team tools",
@@ -138,6 +138,9 @@
           },
           {
             "name": "sanity(cms)"
+          },
+          {
+            "name": "shopify(ecommerce)"
           }
         ]
       }
@@ -145,10 +148,10 @@
   },
   {
     "name": "Blue Cow Gelato AU",
-    "description" : "This is site has been approved",
-    "url": "frontlineremovals.au",
- "image1": "about.jpg",
-    "image2": "landing.jpg",
+    "description" : "A website build which is still on-going. The store owners wanted to improve their existing website and so, we entirely built some new pages and components. I worked on some parts of the website like to forms, hero sections and the menu. The site is temporarily on netlify as the build is still in-progress, although I am no longer part of the build. ",
+    "url": "https://bluecowgelato.netlify.app/",
+ "image1": "blue-1.jpg",
+    "image2": "blue-2.jpg",
     "productivity": [
       {
         "tools" : "team tools",
@@ -158,6 +161,12 @@
           },
           {
             "name": "Github"
+          },
+          {
+            "name": "netlify"
+          },
+          {
+            "name": "sanity(cms)"
           }
         ]
       }
@@ -180,8 +189,8 @@
     "name": "JMC Limited",
     "description" : "A website build for a Danish painting contractor serving the marine industry. I was tasked to design and create the website which includes some media content such as videos, blogs and company updates",
     "url": "https://jmc-limited.com/",
-  "image1": "about.jpg",
-    "image2": "landing.jpg",
+  "image1": "jmc-1.jpg",
+    "image2": "jmc-2.jpg",
     "productivity": [
       {
         "tools" : "team tools",
@@ -213,6 +222,48 @@
           },
           {
             "name": "AWS Cloudfront"
+          }
+        ]
+      }
+    ] 
+  },
+  {
+    "name": "React Cebu",
+    "description" : "An open source contribution during OctoberFest 2020 hackathon. I volunteered to make the footer on the website.",
+    "url": "https://react.jscebu.org/",
+  "image1": "cebu-1.jpg",
+    "image2": "cebu-2.jpg",
+    "productivity": [
+      {
+        "tools" : "team tools",
+        "order" : [
+          {
+            "name": "Git"
+          },
+          {
+            "name": "Github"
+          },
+          {
+            "name": "Discord"
+          }
+        ]
+      }
+    ],
+    "technologies": [
+      {
+        "techno": "tech stack",
+        "order": [
+          {
+            "name": "React"
+          },
+           {
+            "name": "Styled Components"
+          },
+           {
+            "name": "Typescript"
+          },
+          {
+            "name": "Netlify"
           }
         ]
       }
