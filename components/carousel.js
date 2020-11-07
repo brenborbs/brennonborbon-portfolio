@@ -71,9 +71,9 @@ function Carousel() {
                             {slide.quote}
                           </h2>
                         </div>
-                        <Link href="/">
-                          <a className="font-architects mt-2 inline-flex items-center justify-center px-8 py-2 tracking-wider text-white transition duration-150 ease-in-out border border-green-500 bg-green-500 hover:text-green-500 hover:bg-white focus:text-green-500 focus:bg-white;">
-                            Let's get out of here
+                        <Link href="/projects">
+                          <a className="mt-2 inline-flex items-center justify-center px-8 py-2 tracking-wider text-white transition duration-150 ease-in-out border border-green-500 bg-green-500 hover:text-green-500 hover:bg-white focus:text-green-500 focus:bg-white;">
+                            Know more
                           </a>
                         </Link>
                       </div>

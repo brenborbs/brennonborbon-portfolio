@@ -10,7 +10,7 @@ export default function Faqs() {
         path={path}
         title="Faqs Page"
         cta="NextJS Tailwindcss"
-        action="Can I answer your question?"
+        action="Know more"
       />
       {/* TODO: mt-40 is temporary until fix is completed on hero */}
       <div className="px-4 bg-white sm:px-6 lg:px-8">

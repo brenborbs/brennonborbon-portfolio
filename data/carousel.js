@@ -4,19 +4,19 @@ export const carousel = [
   {
     id: nanoid(),
     image: 'slide-1.jpg',
-    title: 'revenge of the sith',
-    quote: 'no man is an island',
+    title: 'the next frontend',
+    quote: 'react-slick for slides',
   },
   {
     id: nanoid(),
     image: 'slide-2.jpg',
-    title: 'attack on mars',
-    quote: 'dead men tell no lies',
+    title: 'site animations',
+    quote: 'framer motion',
   },
   {
     id: nanoid(),
     image: 'slide-3.jpg',
-    title: 'the last crusade',
-    quote: 'i know what you did',
+    title: 'tabs and accordion',
+    quote: '@reach tabs',
   },
 ];
