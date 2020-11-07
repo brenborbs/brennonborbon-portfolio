@@ -66,7 +66,7 @@ function Footer() {
             </div>
             <div className="my-6">
               <div>
-                <div className="flex flex-col space-y-3 text-green-500">
+                <div className="ml-auto space-y-3 text-green-500">
                   {APP_OFFICEHOURS}
                 </div>
               </div>
@@ -95,9 +95,7 @@ function Footer() {
                       rel="noopener noreferrer"
                       className="text-green-500 uppercase transition duration-150 ease-in-out hover:underline focus:underline focus:shadow-none"
                     >
-                      {APP_ADDRESS.line1},
-                      <br />
-                      {APP_ADDRESS.line2}
+                      {APP_ADDRESS.line1}, {APP_ADDRESS.line2}
                     </a>
                   </div>
                 </dl>
