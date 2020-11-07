@@ -28,9 +28,9 @@ function Builds() {
   return (
     <Tabs
       orientation="vertical"
-      className="flex w-full max-w-5xl mx-auto border rounded-none"
+      className="flex w-full max-w-5xl mx-auto overflow-x-auto border rounded-none"
     >
-      <TabList className="flex flex-col justify-start flex-shrink-0 w-64 bg-white border-r divide-y rounded-l-lg">
+      <TabList className="flex flex-col justify-start flex-shrink-0 w-32 bg-white border-r divide-y rounded-l-lg md:w-64">
         {projectNames.map((item) => (
           <Tab key={nanoid()} className="w-full px-6 py-4 font-bold text-left">
             {item.projectName}
