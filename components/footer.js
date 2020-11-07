@@ -11,7 +11,7 @@ import { footerNavigation, socialLinks } from '../data';
 
 function Footer() {
   return (
-    <footer className="text-green-500 bg-white">
+    <footer className="text-green-500 capitalize bg-white">
       <div className="w-full px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:py-16 lg:px-8">
         <div className="xl:grid xl:grid-cols-3">
           <div className="xl:col-span-1">
@@ -43,7 +43,7 @@ function Footer() {
                 {footerNavigation.col1.map((node) => (
                   <li key={node.id}>
                     <Link href={node.slug}>
-                      <a className="text-green-500 uppercase transition duration-150 ease-in-out hover:underline focus:underline focus:shadow-none">
+                      <a className="text-green-500 transition duration-150 ease-in-out hover:underline focus:underline focus:shadow-none">
                         {node.label}
                       </a>
                     </Link>
@@ -56,7 +56,7 @@ function Footer() {
                 {footerNavigation.col2.map((node) => (
                   <li key={node.id}>
                     <Link href={node.slug}>
-                      <a className="text-green-500 uppercase transition duration-150 ease-in-out hover:underline focus:underline focus:shadow-none">
+                      <a className="text-green-500 transition duration-150 ease-in-out hover:underline focus:underline focus:shadow-none">
                         {node.label}
                       </a>
                     </Link>
@@ -71,7 +71,7 @@ function Footer() {
                 </div>
               </div>
               <div className="mt-12 md:mt-0">
-                <dl className="ml-auto space-y-3 text-green-500 uppercase">
+                <dl className="ml-auto space-y-3 text-green-500 ">
                   <dt>
                     <a
                       href={`tel:${APP_TELEPHONE.split(' ').join('')}`}
@@ -83,7 +83,7 @@ function Footer() {
                   <dd>
                     <a
                       href={`mailto:${APP_EMAIL}`}
-                      className="text-green-500 uppercase break-all transition duration-150 ease-in-out hover:underline focus:underline focus:shadow-none"
+                      className="text-green-500 lowercase break-all transition duration-150 ease-in-out hover:underline focus:underline focus:shadow-none"
                     >
                       {APP_EMAIL}
                     </a>
@@ -93,7 +93,7 @@ function Footer() {
                       href="/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-green-500 uppercase transition duration-150 ease-in-out hover:underline focus:underline focus:shadow-none"
+                      className="text-green-500 transition duration-150 ease-in-out hover:underline focus:underline focus:shadow-none"
                     >
                       {APP_ADDRESS.line1}, {APP_ADDRESS.line2}
                     </a>
@@ -103,14 +103,14 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="pt-8 mt-10 border-t border-green-300 font-architects">
-          <p className="tracking-wider text-center uppercase">
+        <div className="pt-8 mt-10 uppercase border-t border-green-300">
+          <p className="tracking-wider text-center ">
             Website by{' '}
             <a
               href="/"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-bold text-green-500 uppercase transition duration-150 ease-in-out hover:underline focus:underline focus:shadow-none"
+              className="font-bold text-green-500 transition duration-150 ease-in-out hover:underline focus:underline focus:shadow-none"
             >
               &copy; {new Date().getFullYear()} {APP_NAME}. All rights reserved.
             </a>

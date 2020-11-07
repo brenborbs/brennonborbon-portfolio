@@ -11,12 +11,12 @@ export const carousel = [
     id: nanoid(),
     image: 'slide-2.jpg',
     title: 'site animations',
-    quote: 'framer motion is my favorite',
+    quote: 'framer motion',
   },
   {
     id: nanoid(),
     image: 'slide-3.jpg',
-    title: 'How about tabs and accordion',
-    quote: '@reach tabs is the answer',
+    title: 'tabs and accordion',
+    quote: '@reach tabs',
   },
 ];

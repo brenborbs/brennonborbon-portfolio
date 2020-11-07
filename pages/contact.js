@@ -23,7 +23,7 @@ export default function Contact() {
         path={path}
         title="Contact Us"
         cta="NextJS Tailwindcss"
-        action="Hurry!"
+        action="Know more"
       />
       <section>
         <div className="container flex flex-wrap px-5 py-24 mx-auto sm:flex-no-wrap">
@@ -31,7 +31,7 @@ export default function Contact() {
             <GoogleMap />
             <div className="relative flex flex-wrap py-6 bg-white">
               <div className="px-6 lg:w-1/2">
-                <h2 className="text-sm font-medium tracking-widest text-gray-900 title-font">
+                <h2 className="text-sm font-medium tracking-widest title-font">
                   {APP_ADDRESS.line1},
                   <br />
                   {APP_ADDRESS.line2}
@@ -39,11 +39,11 @@ export default function Contact() {
                 <p className="leading-relaxed">{APP_DESCRIPTION}</p>
               </div>
               <div className="px-6 mt-4 lg:w-1/2 lg:mt-0">
-                <h2 className="text-sm font-medium tracking-widest text-gray-900 title-font">
+                <h2 className="text-sm font-medium tracking-widest title-font">
                   EMAIL
                 </h2>
                 <a className="leading-relaxed text-green-500">{APP_EMAIL}</a>
-                <h2 className="mt-4 text-sm font-medium tracking-widest text-gray-900 title-font">
+                <h2 className="mt-4 text-sm font-medium tracking-widest title-font">
                   PHONE
                 </h2>
                 <p className="leading-relaxed">{APP_TELEPHONE}</p>
@@ -51,7 +51,7 @@ export default function Contact() {
             </div>
           </div>
           <div className="flex flex-col w-full mt-8 lg:w-1/3 md:w-1/2 md:ml-auto md:py-8 md:mt-0">
-            <h2 className="mb-1 text-lg font-medium text-gray-900 title-font">
+            <h2 className="mb-1 text-lg font-medium title-font">
               We are happy to hear from you!
             </h2>
             <p className="mb-5 leading-relaxed text-gray-600">

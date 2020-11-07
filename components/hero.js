@@ -10,14 +10,14 @@ function Hero({ path, title, cta, action }) {
       </div>
       <div className="absolute inset-0 flex items-center justify-center px-4 sm:px-6 lg:px-8">
         <div className="text-center text-white uppercase">
-          <h2 className="text-3xl text-shadow font-nunito">
+          <h2 className="text-3xl md:text-5xl text-shadow">
             {title} <br />
-            <span className="text-lg font-bold uppercase sm:text-3xl md:text-5xl font-roboto">
+            <span className="text-lg font-black uppercase text-shadow font-architects sm:text-3xl md:text-5xl lg:text-6xl">
               {cta}
             </span>
           </h2>
-          <Link href="/">
-            <a className="font-architects mt-2 inline-flex items-center justify-center px-8 py-2 tracking-wider text-white transition duration-150 ease-in-out border border-green-500 bg-green-500 hover:text-green-500 hover:bg-white focus:text-green-500 focus:bg-white;">
+          <Link href="/projects">
+            <a className="mt-2 inline-flex items-center justify-center px-8 py-2 tracking-wider text-white transition duration-150 ease-in-out border border-green-500 bg-green-500 hover:text-green-500 hover:bg-white focus:text-green-500 focus:bg-white;">
               {action}
             </a>
           </Link>
