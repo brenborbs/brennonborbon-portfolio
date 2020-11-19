@@ -26,7 +26,7 @@ export default function Contact() {
         action="Know more"
       />
       <section>
-        <div className="container flex flex-wrap px-5 py-24 mx-auto sm:flex-no-wrap">
+        <div className="container flex flex-wrap px-5 py-24 mx-auto sm:flex-nowrap">
           <div className="relative flex items-end justify-start p-10 overflow-hidden rounded-lg lg:w-2/3 md:w-1/2 sm:mr-10">
             <GoogleMap />
             <div className="relative flex flex-wrap py-6 bg-white">
