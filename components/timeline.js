@@ -13,7 +13,7 @@ const milestones = [
         stroke="currentColor"
         strokeLinecap="round"
         strokeLinejoin="round"
-        stroke-width="2"
+        strokeWidth="2"
         className="w-6 h-6"
         viewBox="0 0 24 24"
       >
@@ -34,7 +34,7 @@ const milestones = [
         stroke="currentColor"
         strokeLinecap="round"
         strokeLinejoin="round"
-        stroke-width="2"
+        strokeWidth="2"
         className="w-6 h-6"
         viewBox="0 0 24 24"
       >
@@ -55,7 +55,7 @@ const milestones = [
         stroke="currentColor"
         strokeLinecap="round"
         strokeLinejoin="round"
-        stroke-width="2"
+        strokeWidth="2"
         className="w-6 h-6"
         viewBox="0 0 24 24"
       >
