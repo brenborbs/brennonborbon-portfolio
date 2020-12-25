@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <Layout>
       <SEO title="Home" />
-      <Element name="Home">
+      <Element name="home">
         <Carousel />
       </Element>
       <Element name="about">

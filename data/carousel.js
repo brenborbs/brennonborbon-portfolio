@@ -16,7 +16,7 @@ export const carousel = [
   {
     id: nanoid(),
     image: 'slide-3.jpg',
-    title: 'Tabs and accordion',
-    quote: 'Brennon Borbon@reach tabs',
+    title: 'Social Media Integration',
+    quote: 'Brennon Borbon@instawidgets',
   },
 ];
