@@ -4,9 +4,9 @@ const milestones = [
   {
     id: nanoid(),
     seq: '1',
-    title: 'started coding journey',
+    title: 'Freelance Web Developer',
     desc:
-      'I started to learn web development from June 2018, after I bought a short tutorial book on how to make websites from Coding Dojo.',
+      'I started accepting freelance gigs from January 2018 and worked mostly on making HTML and CSS templates for various clients.',
     svg: (
       <svg
         fill="none"
@@ -25,9 +25,9 @@ const milestones = [
   {
     id: nanoid(),
     seq: '2',
-    title: 'Got first freelance website project',
+    title: 'Web Developer and I.T Staff for JMC Limited Denmark',
     desc:
-      'A website build for a Danish Painting Contractor. The owner was a contact of mine and I offered my services to built his online presence. The project lasted for 6 months from January 2019 to June 2019.',
+      'JMC Limited is a Danish Painting Contractor serving the marine industry. The owner was a contact of mine and I offered my services to built his online presence and worked on the company internal I.T reporting software. I worked for the company from June 2018 untill December 2019.',
     svg: (
       <svg
         fill="none"
@@ -48,7 +48,7 @@ const milestones = [
     seq: '3',
     title: 'Worked for Phiranno Designs',
     desc:
-      'I got a 3 month contract and worked for Phiranno Design AU from August 2020 until October 2020',
+      'During the start of the pandemic, getting freelance jobs was very difficult due to the lockdowns. Fortunately, I got a contract and worked for Phiranno Design AU from June 2020 until 1st week of December 2020.',
     svg: (
       <svg
         fill="none"
@@ -72,7 +72,7 @@ function TimeLine() {
       <div className="container px-5 py-10 mx-auto">
         <div className="flex flex-col w-full mb-8 text-center">
           <h1 className="mb-4 text-4xl font-medium sm:text-3xl title-font font-architects">
-            Humble Milestones
+            Professional Experience
           </h1>
           <p className="mx-auto text-base leading-relaxed lg:w-2/3">
             My long journey from point A to B in Web Development

@@ -18,26 +18,20 @@ export const mainNavigation = [
   },
   {
     id: nanoid(),
+    label: 'About',
+    slug: '#about',
+    icon: HomeIcon,
+  },
+  {
+    id: nanoid(),
     label: 'Projects',
-    slug: '/projects',
-    icon: HomeIcon,
-  },
-  {
-    id: nanoid(),
-    label: 'Blog',
-    slug: '/blog',
-    icon: HomeIcon,
-  },
-  {
-    id: nanoid(),
-    label: 'Faqs',
-    slug: '/faqs',
+    slug: '#projects',
     icon: HomeIcon,
   },
   {
     id: nanoid(),
     label: 'Contact',
-    slug: '/contact',
+    slug: '#contact',
     icon: HomeIcon,
   },
 ];
