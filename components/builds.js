@@ -22,6 +22,9 @@ const projectNames = [
   {
     projectName: 'React Cebu',
   },
+  {
+    projectName: 'Hats E-Commerce Store',
+  },
 ];
 
 function Builds() {
