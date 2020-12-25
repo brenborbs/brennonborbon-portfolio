@@ -268,5 +268,50 @@
         ]
       }
     ] 
+  },
+  {
+    "name": "Hats E-Commerce Store",
+    "description" : "This is a HATS E-commerce Clothing Shop selling clothing,hats and shoe merchandise. Uses Goggle Firebase/Firestore for sign-in/sign-out(Authentication) and storing product data. Uses Redux for state management. Uses Snipcart to process automatic payment fields when making purchases.",
+    "url": "https://hats-live.herokuapp.com/",
+  "image1": "hats-1.png",
+    "image2": "hats-2.png",
+    "productivity": [
+      {
+        "tools" : "team tools",
+        "order" : [
+          {
+            "name": "Git"
+          },
+          {
+            "name": "Github"
+          },
+          {
+            "name": "Discord"
+          }
+        ]
+      }
+    ],
+    "technologies": [
+      {
+        "techno": "tech stack",
+        "order": [
+          {
+            "name": "React"
+          },
+           {
+            "name": "Styled Components"
+          },
+           {
+            "name": "Snipcart"
+          },
+          {
+            "name": "Netlify"
+          },
+           {
+            "name": "Firebase"
+          }
+        ]
+      }
+    ] 
   }
 ]
