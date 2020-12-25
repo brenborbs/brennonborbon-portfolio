@@ -1,11 +1,22 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { Logo } from './vectors';
-import { mainNavigation } from '../data';
+// import { mainNavigation } from '../data';
 import { MobileMenu } from './mobile-menu';
+import { scroller } from 'react-scroll';
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
+
+  const scrollToElement = (element) => {
+    scroller.scrollTo(element, {
+      duration: 1500,
+      delay: 100,
+      smooth: true,
+      offset: -150,
+    });
+  };
+
   return (
     <nav className="sticky top-0 z-20 bg-white shadow">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
@@ -18,13 +29,30 @@ function Header() {
             </Link>
           </div>
           <div className="hidden space-x-8 sm:ml-6 sm:flex">
-            {mainNavigation.map((node) => (
-              <Link key={node.id} href={node.slug}>
-                <a className="inline-flex items-center px-1 pt-1 leading-5 text-green-500 transition duration-150 ease-in-out border-b-2 border-transparent text-md hover:text-green-700 hover:border-green-300 focus:shadow-none focus:text-green-700 focus:border-green-300">
-                  {node.label}
-                </a>
-              </Link>
-            ))}
+            <button
+              onClick={() => scrollToElement('home')}
+              className="inline-flex items-center px-1 pt-1 leading-5 text-green-500 transition duration-150 ease-in-out border-b-2 border-transparent text-md hover:text-green-700 hover:border-green-300 focus:shadow-none focus:text-green-700 focus:border-green-300"
+            >
+              Home
+            </button>
+            <button
+              onClick={() => scrollToElement('about')}
+              className="inline-flex items-center px-1 pt-1 leading-5 text-green-500 transition duration-150 ease-in-out border-b-2 border-transparent text-md hover:text-green-700 hover:border-green-300 focus:shadow-none focus:text-green-700 focus:border-green-300"
+            >
+              About
+            </button>
+            <button
+              onClick={() => scrollToElement('projects')}
+              className="inline-flex items-center px-1 pt-1 leading-5 text-green-500 transition duration-150 ease-in-out border-b-2 border-transparent text-md hover:text-green-700 hover:border-green-300 focus:shadow-none focus:text-green-700 focus:border-green-300"
+            >
+              Projects
+            </button>
+            <button
+              onClick={() => scrollToElement('contact')}
+              className="inline-flex items-center px-1 pt-1 leading-5 text-green-500 transition duration-150 ease-in-out border-b-2 border-transparent text-md hover:text-green-700 hover:border-green-300 focus:shadow-none focus:text-green-700 focus:border-green-300"
+            >
+              Contact
+            </button>
           </div>
           <div className="flex items-center -mr-2 sm:hidden">
             {/* Mobile menu button */}

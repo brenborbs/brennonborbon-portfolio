@@ -3,8 +3,8 @@ const optimizedImages = require('next-optimized-images');
 
 const publicRuntimeConfig = {
   // Sample only, you can change the values accordingly!
-  APP_NAME: 'Brennon Portfolio',
-  APP_DESCRIPTION: 'Brennon Porfolio built using NextJS and Tailwindcss',
+  APP_NAME: 'Brennon Borbon',
+  APP_DESCRIPTION: 'Brennon Borbon Portfolio',
   APP_ADDRESS: {
     line1: '25 Zodiac Drive Pleasant Homes Subdivision',
     line2: 'Punta Princesa Cebu City Philippines',
