@@ -25,6 +25,9 @@ const projectNames = [
   {
     projectName: 'Hats E-Commerce Store',
   },
+  {
+    projectName: 'GLF Online AU',
+  },
 ];
 
 function Builds() {

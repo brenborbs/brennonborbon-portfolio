@@ -97,7 +97,7 @@
   },
   {
     "name": "Moda Latina AU",
-    "description" : "An e-commerce website using shopify. The site owners wanted to improved the existing site and move towards 'headless' front-end solution. A new design was made and so, I given to worked some of the pages including the cart.",
+    "description" : "An e-commerce website using shopify. The site owners wanted to improved the existing site and move towards 'headless' front-end solution. A new design was made and so, I given to worked on the landing page, product page, individual product page, cart page and footer.",
     "url": "https://www.modalatina.com.au/",
  "image1": "moda-1.png",
     "image2": "moda-2.png",
@@ -309,6 +309,57 @@
           },
            {
             "name": "Firebase"
+          }
+        ]
+      }
+    ] 
+  },
+   {
+    "name": "GLF Online AU",
+    "description" : "GLF online is an online E-commerce website which specialises in selling Golf sports apparel for men and women. The project was to improve and migrate the existing shopify front-end into fully customised Gatsby(React) front-end going while retaining shopify to handle the back-end going full headless. I worked on the landing page, Products page and Individual product details page with the add button to cart feature .",
+    "url": "https://www.glfonline.com.au/",
+ "image1": "glf-1.png",
+    "image2": "glf-2.png",
+    "productivity": [
+      {
+        "tools" : "team tools",
+        "order" : [
+          {
+            "name": "Git"
+          },
+          {
+            "name": "Github"
+          },
+          {
+            "name": "Asana"
+          },
+          {
+            "name": "Slack"
+          }
+        ]
+      }
+    ],
+    "technologies": [
+      {
+        "techno": "tech stack",
+        "order": [
+          {
+            "name": "React"
+          },
+           {
+            "name": "Tailwindcss"
+          },
+           {
+            "name": "Gatsby"
+          },
+          {
+            "name": "netlify"
+          },
+          {
+            "name": "sanity(cms)"
+          },
+          {
+            "name": "shopify(ecommerce)"
           }
         ]
       }
