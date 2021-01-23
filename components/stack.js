@@ -7,7 +7,6 @@ import {
   MongoDB,
   NodejsIcon,
   TailwindIcon,
-  BootstrapIcon,
   NetlifyIcon,
   SassIcon,
 } from '../components/vectors';
