@@ -6,6 +6,9 @@ import {
   GastbyIcon,
   MongoDB,
   NodejsIcon,
+  TailwindIcon,
+  BootstrapIcon,
+  SassIcon,
 } from '../components/vectors';
 
 const stack = [
@@ -19,6 +22,10 @@ const stack = [
   },
   {
     id: nanoid(),
+    icon: SassIcon,
+  },
+  {
+    id: nanoid(),
     icon: GastbyIcon,
   },
   {
@@ -27,7 +34,15 @@ const stack = [
   },
   {
     id: nanoid(),
+    icon: BootstrapIcon,
+  },
+  {
+    id: nanoid(),
     icon: NodejsIcon,
+  },
+  {
+    id: nanoid(),
+    icon: TailwindIcon,
   },
   {
     id: nanoid(),
@@ -45,8 +60,8 @@ function Stack() {
         <div className="flex flex-wrap -m-4">
           {stack.map((item) => (
             <div className="p-4 md:w-1/3" key={item.id}>
-              <div className="p-8">
-                <item.icon className="h-40 mx-auto" />
+              <div className="p-4">
+                <item.icon className="h-12 mx-auto" />
               </div>
             </div>
           ))}

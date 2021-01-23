@@ -13,3 +13,6 @@ export * from './react-icon';
 export * from './gatsby-icon';
 export * from './nodejs-icon';
 export * from './mongodb-icon';
+export * from './tailwind-icon';
+export * from './bootstrap4-icon';
+export * from './sass-icon';
