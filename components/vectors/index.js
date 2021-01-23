@@ -6,3 +6,10 @@ export * from './home-icon';
 export * from './instagram-icon';
 export * from './logo';
 export * from './twitter-icon';
+// Tech Stack
+export * from './javascript-icon';
+export * from './nextjs-icon';
+export * from './react-icon';
+export * from './gatsby-icon';
+export * from './nodejs-icon';
+export * from './mongodb-icon';
