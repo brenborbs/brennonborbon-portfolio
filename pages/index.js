@@ -8,6 +8,7 @@ import {
   TimeLine,
   ContactForm,
   GoogleMap,
+  Stack,
 } from '../components';
 import {
   APP_DESCRIPTION,
@@ -26,6 +27,7 @@ export default function Home() {
       </Element>
       <Element name="about">
         <About />
+        <Stack />
       </Element>
       <Element name="projects">
         <Builds />

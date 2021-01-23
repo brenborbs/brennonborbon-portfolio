@@ -12,4 +12,5 @@ export * from './review';
 export * from './picture';
 export * from './seo';
 export * from './spinner';
+export * from './stack';
 export * from './timeline';
