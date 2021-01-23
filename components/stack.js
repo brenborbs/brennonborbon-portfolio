@@ -8,6 +8,7 @@ import {
   NodejsIcon,
   TailwindIcon,
   BootstrapIcon,
+  NetlifyIcon,
   SassIcon,
 } from '../components/vectors';
 
@@ -34,7 +35,7 @@ const stack = [
   },
   {
     id: nanoid(),
-    icon: BootstrapIcon,
+    icon: NetlifyIcon,
   },
   {
     id: nanoid(),

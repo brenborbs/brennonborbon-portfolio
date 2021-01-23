@@ -16,3 +16,4 @@ export * from './mongodb-icon';
 export * from './tailwind-icon';
 export * from './bootstrap4-icon';
 export * from './sass-icon';
+export * from './netlify-icon';
